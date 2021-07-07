@@ -10,11 +10,11 @@ color: orange;
 body{
 margin: 0;
 
-    font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans', sans-serif;
     font-size: 30px;
   
 }
-section{
+.flexible-container{
 
 
     display: flex;
@@ -31,7 +31,11 @@ padding-left: 2%
 
 width: 80%;
 
+background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
 }
+
 .link-button{
 color: white;
 font-weight: 700;
@@ -41,10 +45,12 @@ padding: 10px 40px;
 border-radius: 6px;
 
 }
+
 .top-banner{
 
 background-image: url(images/top-banner.png);
 background-repeat: no-repeat;
+
 
 }
 
@@ -55,4 +61,50 @@ background-image: url(images/dream-bg.png);
 background-repeat: no-repeat;
 background-position: right;
 
+}
+
+
+.experience-area{
+
+
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left 70px;
+
+
+}
+
+.experience-item
+{
+
+width: 40%;
+padding-left: 5%;
+padding-right: 5%;
+box-shadow: 10px 10px 50px gray;
+border-radius: 10px;
+}
+
+.experience-gap{
+
+
+margin-bottom:  70px;
+margin-left: 80px;
+
+
+
+}
+
+#stack-experience{
+
+    border-left: 10px solid;
+    border-image: linear-gradient(orange, red);
+    border-image-slice: 1;
+    margin-left: 50px;
+}
+#baby-dev{
+
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+margin-left: 50px;
 }
